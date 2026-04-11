@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../style.css">
+    <title>Safe Carz Limited - Vehicles</title>
+    <style>
+        .featured-cart-container .featured-cart {
+            width: 35%;
+        }
+
+        .vehicle-categories {
+            /* background-color: aqua; */
+            padding: 62px;
+        }
+
+        .first-row-vehicle-categories>h1 {
+            font-size: 48px;
+            padding-bottom: 28px;
+            font-weight: 500;
+        }
+
+        .first-row-vehicle-categories>p {
+            padding-bottom: 25px;
+            color: rgba(0, 0, 0, 0.6);
+            font-size: 18px;
+        }
+
+        .second-row-vehicle-categories {
+            position: relative;
+            display: flex;
+        }
+           .featured-cart-sub-footer{
+            padding-bottom: 22px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .featured-cart-sub-footer span:first-child{
+            font-size: 14px;
+            color: #64748b;
+        }
+        #cart-footer-count{
+            font-size: 24px;
+            color: rgb(68, 68, 193);
+        }
+        /* for this page */
+        .para-m {
+            padding-bottom: 22px;
+        }
+        li::before {
+            color: rgb(68, 68, 193);
+            font-size: 18px;
+        }
+        .featured-cart-header{
+            height: 230px;
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body class="bg">
+    <nav id="nav"></nav>
+    <section class="vehicle-categories">
+        <div class="container-vehicle-categories w">
+            <div class="first-row-vehicle-categories">
+                <h1 class="text-center">Vehicle Categorie</h1>
+                <p class="text-center">Choose your vehicle type to find the perfect insurance plan</p>
+            </div>
+            <div class="second-row-vehicle-categories featured-cart-container">
+                <div class="featured-cart">
+                    <div class="featured-cart-header">
+                        
+                    </div>
+                    <div class="featured-cart-body">
+                        <p class="para-m">Comprehensive insurance plans for cars, SUVs, and other four-wheeled vehicles.
+                            Get coverage for own damage, third party liability, and more.</p>
+                        <ul>
+                            <li>Third Party Liability Coverage</li>
+                            <li>Own Damage Protection</li>
+                            <li>Zero Depreciation Options</li>
+                            <li>Engine & Electrical Protection</li>
+                        </ul>
+                    </div>
+                    <div class="featured-cart-footer">
+                        <div class="featured-cart-sub-footer">
+                            <span class="cart-footer-available">Available Plans</span>
+                            <span id="cart-footer-count">5</span>
+                        </div>
+                        <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <footer id="footer"></footer>
+    <script src="../script.js"></script>
+</body>
+
+</html>
