@@ -4,7 +4,7 @@ let nav = document.getElementById("nav");
 nav.innerHTML = ` <div class="nav-container w">
             <div class="mob">
                 <div class="logo">
-                    <img src="../asserts/logo.webp" alt="logo" loading="eager" width="38">
+                    <img src="../asserts/images/logo.webp" alt="logo" loading="eager" width="38">
                     <span>Safe Carz Limited</span>
                 </div>
                 <i class="fa-solid fa-bars hamberger"></i>
@@ -22,12 +22,11 @@ nav.innerHTML = ` <div class="nav-container w">
             </div>
         </div>`;
 
-footer.innerHTML = `
-                    <div class="container-footer w">
+footer.innerHTML = `<div class="container-footer w">
             <div class="footer-f-row">
                 <div>
                     <div class="logo">
-                        <img src="../asserts/logo.webp" alt="logo" loading="eager" width="38">
+                        <img src="../asserts/images/logo.webp" alt="logo" loading="eager" width="38">
                         <span>Safe Carz Limited</span>
                     </div>
                     <p>Your trusted partner for comprehensive vehicle insurance solutions. Protecting your journey,
@@ -58,7 +57,7 @@ footer.innerHTML = `
                     </ul>
                 </div>
             </div>
-            <div class="footer-copy-right text-center">
+            <div class="footer-copy-right">
                 <p>&copy 2026 Safe Carz Limited. All rights reserved.</p>
             </div>
 

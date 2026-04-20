@@ -1,0 +1,194 @@
+/* for middle devices */
+@media only screen and (max-width: 992px) {
+   .container-hero {
+      width: 80%;
+   }
+
+
+
+   .cart-container .cart {
+      width: 40%;
+   }
+
+   .why-choose-cart {
+      width: 40%;
+   }
+}
+
+/* for mobile devices */
+@media only screen and (max-width: 768px) {
+   .nav-container {
+      flex-direction: column;
+      align-items: start;
+      gap: 32px;
+   }
+
+   .navigation {
+      display: none;
+    
+   }
+   .navigation.active{
+      display: block;
+   }
+
+   .navigation ul {
+      flex-direction: column;
+      gap: 16px;
+   }
+
+   .hamberger {
+      display: block;
+   }
+
+   .container-hero h1 {
+      font-size: 32px;
+   }
+
+   .container-hero p {
+      font-size: 18px;
+      line-height: 28px;
+   }
+
+   .cart-container .cart {
+      width: 60%;
+   }
+
+   .why-choose-cart {
+      width: 60%;
+   }
+   .container-contact-us .second-row {
+      flex-direction: column;
+      width: 100%;
+      gap: 0;
+   }
+   .contact-cart{
+      width: 80%;
+      margin: 8px auto;
+   }
+   .contact-fields{
+      width: 80%;
+      margin: 18px auto;
+   }
+   .map{
+      height: 250px;
+      width: 100%;
+   }
+}
+
+@media only screen and (max-width: 576px) {
+
+   /* global css here */
+   .cont {
+      padding: 32px 16px;
+   }
+
+   .head-1 {
+      font-size: 36px;
+   }
+
+   .head-2 {
+      font-size: 30px;
+      padding-bottom: 16px;
+      line-height: 42px;
+   }
+
+   .para-1 {
+      color: rgba(0, 0, 0, 0.6);
+      line-height: 28px;
+
+   }
+
+   .container-hero {
+      width: 88%;
+      gap: 12px;
+   }
+
+   .container-hero h1 {
+      font-size: 28px;
+   }
+
+   .cart-container .cart,
+   .vehicle-category-carts .cart {
+      width: 100%;
+   }
+   .cart-pkr {
+      font-size: 20px;
+   }
+
+   .cart-title {
+      padding: 10px 0px;
+   }
+
+   .cart-body {
+      min-height: auto;
+   }
+
+   .vehicle-category-carts .cart-body p {
+      width: 100%;
+      padding: 20px 0 10px 0;
+   }
+.cart-body ul {
+      padding-bottom: 15px;
+   }
+   .vehicle-category-carts ul li::before {
+    font-size: 14px;
+}
+   .view-all-plans {
+      padding-top: 32px;
+   }
+
+   .why-choose {
+      padding: 22px;
+   }
+
+   .why-choose-cart {
+      width: 100%;
+   }
+
+   .container-ready>p {
+      line-height: 32px;
+   }
+
+   .container-ready .ready-btn {
+      flex-direction: column;
+   }
+
+
+   .select-company-cart {
+      width: 140px;
+   }
+
+   .row-available-plan {
+      padding: 35px 12px 0 12px;
+   }
+
+   .row-available-plan>h2 {
+      font-size: 18px;
+   }
+
+   .row-available-plan>p {
+      font-size: 14px;
+   }
+
+   .third-row-vehicle-categories {
+      padding: 32px;
+      width: 80%;
+   }
+
+   .third-row-vehicle-categories p {
+      line-height: 26px;
+   }
+
+   .footer-f-row>div,
+   .footer-f-row>div:first-child {
+      width: 100%;
+   }
+
+   .footer-f-row div h2 {
+      padding-bottom: 12px;
+   }
+
+   .footer-f-row div ul li {
+      padding-bottom: 6px;
+   }
+}

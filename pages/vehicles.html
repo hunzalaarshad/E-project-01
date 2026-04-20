@@ -7,77 +7,30 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../asserts/css/style.css">
+    <link rel="stylesheet" href="../asserts/css/responsive.css">
     <title>Safe Carz Limited - Vehicles</title>
-    <style>
-        .featured-cart-container .featured-cart {
-            width: 35%;
-        }
-
-        .vehicle-categories {
-            /* background-color: aqua; */
-            padding: 62px;
-        }
-
-        .first-row-vehicle-categories>h1 {
-            font-size: 48px;
-            padding-bottom: 28px;
-            font-weight: 500;
-        }
-
-        .first-row-vehicle-categories>p {
-            padding-bottom: 25px;
-            color: rgba(0, 0, 0, 0.6);
-            font-size: 18px;
-        }
-
-        .second-row-vehicle-categories {
-            position: relative;
-            display: flex;
-        }
-           .featured-cart-sub-footer{
-            padding-bottom: 22px;
-            display: flex;
-            justify-content: space-between;
-        }
-        .featured-cart-sub-footer span:first-child{
-            font-size: 14px;
-            color: #64748b;
-        }
-        #cart-footer-count{
-            font-size: 24px;
-            color: rgb(68, 68, 193);
-        }
-        /* for this page */
-        .para-m {
-            padding-bottom: 22px;
-        }
-        li::before {
-            color: rgb(68, 68, 193);
-            font-size: 18px;
-        }
-        .featured-cart-header{
-            height: 230px;
-            background-color: blue;
-        }
-    </style>
 </head>
 
 <body class="bg">
     <nav id="nav"></nav>
-    <section class="vehicle-categories">
+    <section class="vehicle-categories cont">
         <div class="container-vehicle-categories w">
-            <div class="first-row-vehicle-categories">
-                <h1 class="text-center">Vehicle Categorie</h1>
-                <p class="text-center">Choose your vehicle type to find the perfect insurance plan</p>
+            <div>
+                <h1 class="head-1">Vehicle Categorie</h1>
+                <p class="para-1">Choose your vehicle type to find the perfect insurance plan</p>
             </div>
-            <div class="second-row-vehicle-categories featured-cart-container">
-                <div class="featured-cart">
-                    <div class="featured-cart-header">
-                        
+            <div class="vehicle-category-carts">
+                <div class="cart">
+                    <div class="cart-header">
+                        <span class="symbol">
+                            <i class="fa-solid fa-car-side"></i>
+                        </span>
+                        <h2>Four Wheelers</h2>
+                        <p>Cars, SUVs & Vehicles</p>
                     </div>
-                    <div class="featured-cart-body">
-                        <p class="para-m">Comprehensive insurance plans for cars, SUVs, and other four-wheeled vehicles.
+                    <div class="cart-body">
+                        <p>Comprehensive insurance plans for cars, SUVs, and other four-wheeled vehicles.
                             Get coverage for own damage, third party liability, and more.</p>
                         <ul>
                             <li>Third Party Liability Coverage</li>
@@ -86,18 +39,51 @@
                             <li>Engine & Electrical Protection</li>
                         </ul>
                     </div>
-                    <div class="featured-cart-footer">
-                        <div class="featured-cart-sub-footer">
-                            <span class="cart-footer-available">Available Plans</span>
-                            <span id="cart-footer-count">5</span>
+                    <div class="cart-footer">
+                        <div class="cart-sub-footer">
+                            <span>Available Plans</span>
+                            <span>5</span>
                         </div>
                         <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
                     </div>
                 </div>
+                <div class="cart">
+                    <div class="cart-header" id="header-2">
+                        <span class="symbol">
+                            <i class="fa-solid fa-person-biking"></i>
+                        </span>
+                        <h2>Two Wheelers</h2>
+                        <p>Bikes, Motorcycles & Scooters</p>
+                    </div>
+                    <div class="cart-body">
+                        <p>Affordable and comprehensive insurance coverage for motorcycles, scooters, and
+                            bikes. Protect yourself and your vehicle on every ride.</p>
+                        <ul>
+                            <li>Third Party Liability Coverage</li>
+                            <li>Own Damage Protection</li>
+                            <li>Personal Accident Cover</li>
+                            <li>Fire & Theft Protection</li>
+                        </ul>
+                    </div>
+                    <div class="cart-footer">
+                        <div class="cart-sub-footer">
+                            <span>Available Plans</span>
+                            <span>4</span>
+                        </div>
+                        <button>View Plans <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="third-row-vehicle-categories text-center">
+                <h2>Not Sure Which Category to Choose?</h2>
+                <p>Our team of experts is here to help you find the perfect insurance plan for your vehicle</p>
+                <button>Contact Us for Asistance</button>
             </div>
     </section>
-    <footer id="footer"></footer>
-    <script src="../script.js"></script>
+    <footer id="footer" class="cont"></footer>
+
+    <script src="../asserts/Js/main.js"></script>
+    <script src="../asserts/Js/script.js"></script>
 </body>
 
 </html>
