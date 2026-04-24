@@ -176,11 +176,13 @@
      background-color: var(--primary-btn);
      padding: 14px 18px;
      border-radius: 8px;
-     color: #fff;
-     font-size: 20px;
      border: none;
  }
-
+.container-hero button a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
  .container-hero button i {
      color: #fff;
      vertical-align: middle;
@@ -423,14 +425,18 @@
      padding: 0px 24px;
      border-radius: 6px;
      border: 1px solid rgb(229, 223, 223);
-     font-size: 14px;
-     font-weight: 400;
-     color: var(--primary-btn);
-     font-weight: 600;
      width: 192px;
      height: 40px;
  }
-
+ .container-ready .ready-btn a{
+    text-decoration: none;
+ }
+.container-ready .ready-btn button{
+    font-size: 14px;
+     color: var(--primary-btn);
+     font-weight: 600;
+    /* text-decoration: none; */
+}
  .container-ready .ready-btn button:hover {
      background-color: var(--primary-btn);
      color: #ffffff;
